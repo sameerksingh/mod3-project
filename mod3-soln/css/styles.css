@@ -1,0 +1,110 @@
+    body {
+        font-size: 16px;
+        color: #fff;
+        background-color: #61122f;
+        font-family: 'Oxygen', sans-serif;
+    }
+    /** HEADER **/
+    
+    #header-nav {
+        background-color: #f6b319;
+        border-radius: 0;
+        border: 0;
+    }
+    
+    .navbar-brand {
+        padding-top: 5px;
+    }
+    
+    .navbar-brand h1 {
+        /* Restaurant name */
+        font-family: 'Lora', serif;
+        color: #557c3e;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-shadow: 1px 1px 1px #222;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: .75;
+        padding: 10px;
+    }
+    
+    .navbar-brand a:hover,
+    .navbar-brand a:focus {
+        text-decoration: none;
+    }
+    
+    #nav-list a {
+        color: #951C49;
+        text-align: center;
+        background-color: #557c3e;
+    }
+    
+    #nav-list a:hover {
+        background: #E7E7E7;
+    }
+    
+    .navbar-header button.navbar-toggle,
+    .navbar-header .icon-bar {
+        border: 1px solid #61122f;
+    }
+    
+    .navbar-header button.navbar-toggle {
+        clear: both;
+        margin-top: -30px;
+    }
+    /* END HEADER */
+    /* HOME PAGE */
+    
+    #chicken-section {
+        box-shadow: 0 0 50px #3F0C1F;
+        border: 2px solid wheat;
+        padding: 10px;
+        margin: 20px;
+        background-color: rgb(6, 6, 66);
+        height: 1000px;
+    }
+    /* END HOME PAGE */
+    /********** Extra small devices only **********/
+    
+    @media (max-width: 767px) {
+        /* Header */
+        .navbar-brand {
+            padding-top: 10px;
+            height: 80px;
+        }
+        .navbar-brand h1 {
+            /* Restaurant name */
+            padding-top: 10px;
+            font-size: 7vw;
+            /* 1vw = 1% of viewport width */
+        }
+        #collapsable-nav a {
+            /* Collapsed nav menu text */
+            font-size: 1.2em;
+        }
+        #collapsable-nav a:hover,
+        #collapsable-nav a:focus {
+            /* Collapsed nav menu text */
+            text-decoration: none;
+        }
+        #collapsable-nav hr {
+            padding: 0;
+            margin: 0;
+            border: 1px solid white;
+        }
+        #call-btn>a {
+            font-size: 1.5em;
+            display: block;
+            border: 2px solid #fff;
+            background-color: #f6b319;
+            color: #951c49;
+        }
+        /* End Header */
+        /* Home Page */
+        #main-content {
+            margin-top: 30px;
+            padding: 0;
+        }
+    }
